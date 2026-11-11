@@ -11,3 +11,7 @@ a { color: var(--accent); }
 nav { margin-bottom: 24px; }
 nav a { margin-right: 16px; font-weight: 600; }
 footer { margin-top: 48px; color: var(--soft); font-size: 14px; }
+.hero { display: block; width: 100%; height: auto; border: 3px solid var(--ink); border-radius: 16px; margin: 8px 0 16px; }
+.store { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 0 0 8px; }
+.store img { display: block; height: 50px; width: auto; }
+.store span { color: var(--soft); }
